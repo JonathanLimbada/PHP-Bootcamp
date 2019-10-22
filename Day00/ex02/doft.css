@@ -1,0 +1,181 @@
+body {
+    background-color: #505050;
+}
+#bigtxt{
+	font-size: 40px;
+	font-family: Georgia, serif;
+	font-weight: lighter;
+}
+#txt{
+	text-shadow: 5px 5px 5px red;
+}
+#s1{
+    font-size: 20px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+#s2{
+    font-size: 20px;
+	font-style: italic;
+	margin-top: -20px;
+	margin-left: 9px;
+}
+#dof{
+	margin-top: 20px;
+	margin-left: 10px;
+	height: 150px;
+	float: left;
+}
+#re{
+	margin-top: 10px;
+	margin-right: 10px;
+    height: 27px;
+    float: right;
+}
+#close{
+	margin-top: 105px;
+	margin-right: 10px;
+    height: 27px;
+    float: right;
+}
+#mag{
+	margin-top: 26px;
+	margin-left: 750px;
+	height: 175px;
+	float: left;
+}
+#look{
+    margin-top: 5px;
+    height: 90px;
+    width: 90px;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: red;
+    border-width: 7px;
+}
+#icon{
+    width: 90px;
+    height: 90px;
+}
+#book{
+    margin-top: 25px;
+    margin-left: 45px;
+    height: 130px;
+}
+#towel{
+    margin-left: 40px;
+    height: 70px;
+}
+#brick{
+    background-image: url(resources/brick.jpg);
+    background-repeat: repeat;
+    width: 160px;
+    height: 100px;
+    margin-left: 15px;
+    height: 70px;
+}
+#clus{
+    height: 680px;
+    margin: 10px;
+    width: 98.2%;
+	float: left;
+}
+#chair{
+    position: absolute;
+    height: 230px;
+    width: 120px;
+    margin-top: 420px;
+    margin-left: 380px;
+}
+#mac{
+    position: absolute;
+    height: 145px;
+    width: 200px;
+    margin-top: 400px;
+    margin-left: 890px;
+}
+.header{
+    width: 1700px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #909090;
+    box-shadow: 10px 10px 10px #000000;
+}
+.body{
+    width: 1600px;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.left{
+    height: 560px;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #909090;
+    float: left;
+    box-shadow: 10px 10px 10px #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+#yeet{
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 550px;
+    width: 100px;
+}
+.mid{
+    height: 700px;
+    width: 1130px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #909090;
+    float: left;
+    box-shadow: 10px 10px 10px #000000;
+}
+.bottom{
+    position: absolute;
+    background-color: #88FF89;
+    box-shadow: 10px 10px 10px #000000;
+    border-radius: 10px;
+    width: 570px;
+    height: 180px;
+    margin-left: 300px;
+    margin-top: -200px;
+}
+.right{
+    height: 600px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: #909090;
+    /* margin-left: 800px; */
+    float: left;
+    box-shadow: 10px 10px 10px #000000;
+}
+#input{
+	width: 380px;
+	height: 14px;
+	margin-left: 20px;
+	margin-top: -190px;
+	border: 2px solid;
+	border-color: #9d969d #eeeeee #eeeeee #9d969d;
+}
+#button{
+	width: 80px;
+	height: 20px;
+	margin-left: 4px;
+	margin-bottom: 0;
+	border-radius: 1px;
+	text-align: center;
+	font-size: 13px;
+	letter-spacing: 0.25px;
+	background: linear-gradient(#f0f0f0, #dcdcdc);
+	border: solid #9d969d 1px;
+}

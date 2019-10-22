@@ -1,0 +1,70 @@
+body{
+    background-image: url("https://cdn4.vectorstock.com/i/thumb-large/02/98/design-concept-of-word-program-website-banner-vector-15940298.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 30vw;
+}
+td {
+    background-color: rgb(83, 219, 83);
+    width: 70px;
+    height: 80px;
+    text-align: center;
+    font-weight: bold;
+    max-height: 20px;
+    font-size: 2vw;
+}
+.num {
+    font-weight: normal;
+    position: relative;
+    text-align: left;
+    bottom: 0;
+    font-size: 1vw;
+}
+.weigh {
+    font-weight: normal;
+    position: relative;
+    text-align: right;
+    top: 0;
+    font-size: 1vw;
+}
+.purp {
+    background-color: rgb(197, 57, 197);
+}
+.grey {
+    background-color: rgb(185, 185, 185);
+}
+.brown {
+    background-color: rgba(133, 88, 88, 0.418)
+}
+.red {
+    background-color: rgb(247, 57, 57);
+}
+.yellow {
+    background-color: yellow;
+}
+.blu {
+    background-color: aqua;
+}
+.pink {
+    background-color: pink;
+}
+.nein {
+    opacity: 0;
+}
+.neins {
+    height: 40px;
+    opacity: 0;
+}
+.lit_brown {
+    background-color: beige;
+}
+.dark_grey {
+    background-color: gray;
+}
+.number {
+    background-color: white;
+    text-align: center;
+}
+table, tr, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
