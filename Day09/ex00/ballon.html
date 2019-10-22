@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Programs</title>
+    </head>
+    <body>
+        <script>
+            function big()
+            {
+                var boi = document.getElementById("ballon");
+                var high = boi.offsetHeight;
+                var wide = boi.offsetWidth;
+                var wtf = boi.style.borderRadius;
+                var newhigh = high + 10;
+                var newwide = wide + 10;
+                var ftw = wtf + 10;
+                if (newhigh > 420)
+                {
+                    oof();
+                    return;
+                }
+                boi.style.height = newhigh + 'px';
+                boi.style.width = newwide + 'px';
+                boi.style.borderRadius = newhigh + 'px';
+                if(boi.style.backgroundColor == "red")
+                        boi.style.backgroundColor = "green";
+                else if(boi.style.backgroundColor == "green")
+                        boi.style.backgroundColor = "blue";
+                else if(boi.style.backgroundColor == "blue")
+                        boi.style.backgroundColor = "red";
+            }
+            function small()
+            {
+                var boi = document.getElementById("ballon");
+                var high = boi.offsetHeight;
+                var wide = boi.offsetWidth;
+                var wtf = boi.style.borderRadius;
+                var newhigh = high - 5;
+                var newwide = wide - 5;
+                var ftw = wtf - 5;
+                boi.style.height = newhigh + 'px';
+                boi.style.width = newwide + 'px';
+                boi.style.borderRadius = newhigh + 'px';
+                if(boi.style.backgroundColor == "red")
+                        boi.style.backgroundColor = "blue";
+                else if(boi.style.backgroundColor == "blue")
+                        boi.style.backgroundColor = "green";
+                else if(boi.style.backgroundColor == "green")
+                        boi.style.backgroundColor = "red";
+            }
+            function oof()
+            {
+                var boi = document.getElementById("ballon");
+                boi.style.height = '200px';
+                boi.style.width = '200px';
+                boi.style.borderRadius = '100px';
+            }
+        </script>
+        <div id="ballon" style="height:200px; width: 200px; background-color: red; border-radius: 100px; min-height:200px; min-width: 200px;" onmouseout="small()" onclick="big()"></div>
+    </body>
+</html>
